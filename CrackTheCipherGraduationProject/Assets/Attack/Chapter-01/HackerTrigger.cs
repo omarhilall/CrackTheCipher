@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class HackerTrigger : MonoBehaviour
 {
-    bool enterSceen = false;
+    bool enterSceen = false;//flag 
 
     // Update is called once per frame
     void Update()

@@ -11,19 +11,18 @@ public class UIManager : MonoBehaviour
     [Space]
     [SerializeField] private GameObject popUpMsg;
     [Space]
-    [Header("Computer")]
+    [Header("PCs")]
     [SerializeField] private List<GameObject> obejctsToActiveWhenHackingDone;
     [SerializeField] private GameObject hackingBG;
     [SerializeField] private Slider hackSlider;
     [SerializeField] private TextMeshProUGUI timerText;
     [Space]
-    [Header("Restarting Electricity")]
     [SerializeField] private GameObject electricBG;
    // [SerializeField] private Slider electricSlider;
     [Space]
     [SerializeField] private GameObject doneMsgBG;
     [Space]
-    [Header("Changind Cloths")]
+    [Header("Changing Cloths")]
     [SerializeField] public GameObject changeColthBG;
     [SerializeField] private Slider changinColthSlider;
     [Space]
@@ -84,14 +83,11 @@ public class UIManager : MonoBehaviour
 
             if (gameState == GameState.TakeOutPower)
             {
-                //SetMsgText(string.Empty);
                 electricBG.SetActive(true);
-                // currentGuard.GetComponent<Collider>().enabled = false;
-                //  gameState = GameState.None;
-
 
                 StartCoroutine(RestartingElectrcity());
             }
+
             if (gameState == GameState.ChangeClothes)
             {
                 SetMsgText(string.Empty);
@@ -103,6 +99,7 @@ public class UIManager : MonoBehaviour
                 StartCoroutine(ChangingCloths());
             }
 
+
             if (gameState == GameState.TakeDownEnemy)
             {
                 currentGuard.GetComponent<Animator>().enabled = false;
@@ -111,6 +108,7 @@ public class UIManager : MonoBehaviour
                 currentGuard = null;
                 gameState = GameState.None;
             }
+
 
             if (gameState == GameState.Hack)
             {
@@ -211,7 +209,7 @@ public class UIManager : MonoBehaviour
     private IEnumerator EscapeTime()
     {
         int time = 25;
-        while (time > 0)
+        while (time > -1)
         {
             timerText.text = "Escape Before guards get suspicious : " + time;
             yield return new WaitForSeconds(1f);

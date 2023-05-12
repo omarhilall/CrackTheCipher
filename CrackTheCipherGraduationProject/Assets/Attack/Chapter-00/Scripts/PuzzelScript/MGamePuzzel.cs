@@ -22,12 +22,6 @@ public class MGamePuzzel : MonoBehaviour
       
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-       
-    }
-
     public void GenerateWord()
     {
         for (int i = 0; i < 4; i++)
