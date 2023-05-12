@@ -1,2 +1,2 @@
-# CrackTheCipher - Graduation Project 2023
-Due to the growth of cyber attacks every year it is important to learn how to secure data. While it is challenging to develop an interactive, easy to use and beginner friendly cyber security playground platform that focuses on the defensive and attacking side. Our project will be targeting the undergraduates who have the passion in learning cyber security. The game application will provide students an introduction to clarify what are the basics of cyber security by learning basic encryption algorithms in an interactive way as a game to attract the users' attention and keep them motivated. Any student having a basic computer knowledge and willing to learn will be ready to get started. As a little motivation and competition to keep learning.
+# CrackTheCipher
+Graduation Project 2023
