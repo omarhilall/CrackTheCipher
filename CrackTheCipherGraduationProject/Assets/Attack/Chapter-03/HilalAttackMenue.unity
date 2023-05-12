@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7841,10 +7841,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 33829cbef2e6fdb4e9a165413339016f, type: 2}
-    m_FontSize: 27
+    m_FontSize: 23
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 2
     m_MaxSize: 300
     m_Alignment: 3
     m_AlignByGeometry: 0
@@ -7852,9 +7852,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.4
-  m_Text: "Tutorial:\nThe hacker in this game carries a hug virus that would hack
-    the whole system and give us a main acces to all data in this system.\nMake the
-    character reach the end of the road and pass the obstacles (antivirus)\nControllers:\nD
+  m_Text: "\"Virus Run\" is an escape game where you play as a special agent tasked
+    with hacking into a highly secured system to delete a dangerous virus. The twist
+    is that you're carrying the virus yourself, so you must navigate through a maze
+    of antiviruses and security measures to avoid detection and successfully hack
+    into the system. Be careful, the system is equipped with advanced security measures
+    and only careful planning and quick reflexes can help you complete the mission.\nControllers:\nD
     to make it move right.\nA to make\_it\_move\_left."
 --- !u!222 &2037442104
 CanvasRenderer:
