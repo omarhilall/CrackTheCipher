@@ -18,7 +18,6 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI timerText;
     [Space]
     [SerializeField] private GameObject electricBG;
-   // [SerializeField] private Slider electricSlider;
     [Space]
     [SerializeField] private GameObject doneMsgBG;
     [Space]
@@ -133,16 +132,6 @@ public class UIManager : MonoBehaviour
 
     private IEnumerator RestartingElectrcity()
     {
-        //electricSlider.value = 0;
-        //while (electricSlider.value < electricSlider.maxValue)
-        //{
-        //    yield return null;
-        //    electricSlider.value += Time.deltaTime;
-        //}
-
-      //  electricBG.SetActive(false);
-       // yield return new WaitForSeconds(0.2f);
-       // doneMsgBG.SetActive(true);
         yield return new WaitForSeconds(0.2f);
         doneMsgBG.SetActive(false);
         ShowObjective(2);

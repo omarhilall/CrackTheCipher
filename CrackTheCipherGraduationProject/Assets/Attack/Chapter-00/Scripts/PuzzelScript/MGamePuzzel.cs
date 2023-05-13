@@ -9,7 +9,6 @@ public class MGamePuzzel : MonoBehaviour
 {
     [SerializeField] TMP_InputField inputField;
     [SerializeField] Door door;
-   // [SerializeField] int SecretNumber;
     const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     [SerializeField] TextMeshProUGUI PasswordTextUi;
     [SerializeField] string passwordtext;
