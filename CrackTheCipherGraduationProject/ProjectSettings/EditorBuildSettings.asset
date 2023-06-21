@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menue.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Attack/AttackChapterOne.unity
+    guid: 11a1221c6dd7708459e253422d94ca21
+  - enabled: 1
+    path: Assets/Attack/AttackChapterZero.unity
+    guid: f6e5234e11bf53440b5bf47cddea99f8
+  - enabled: 1
+    path: Assets/Defence/DefenceChapterThree.unity
+    guid: a3ef4f30b447d4543ab2c2dc7c2ba579
+  - enabled: 1
+    path: Assets/Attack/AttackChapterFour.unity
+    guid: 2c48a995aaddbc04092c2ddcf5316eb5
+  - enabled: 1
+    path: Assets/Attack/Chapter-04/Scenes/ZakyAttack.unity
+    guid: 076b244cb83f0be4a8d89abd3cfddcbb
+  - enabled: 1
+    path: Assets/Attack/Chapter-03/HilalAttack.unity
+    guid: 4e2a71a5825b54446bfc91d589aaa492
+  - enabled: 1
+    path: Assets/Attack/Chapter-01/Scenes/zyadHack.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Defence/DefenceChapterTwo.unity
+    guid: c18cc1688e89d87428a4c0a6c511f31f
+  - enabled: 1
+    path: Assets/Defence/Cahpter-01/Chapter/RansomwareDefence.unity
+    guid: 7d44c729ace9e92498b9d79a8f899c33
+  - enabled: 1
+    path: Assets/Defence/Chpter-03/Sceens/scene1.unity
+    guid: 3b5f2c9c476e4f54ea922d4ac57b1d92
+  - enabled: 1
+    path: Assets/Defence/DefenceChapterOne.unity
+    guid: cd42011a73994c7418a492c48259ad48
+  - enabled: 1
+    path: Assets/Defence/Chpter-03/Sceens/scene2.unity
+    guid: 1ed25ccdc5640cf40b4ccefd398fb2cc
+  - enabled: 1
+    path: Assets/Defence/Chpter-03/Sceens/scene3.unity
+    guid: c4a5fc5ca2fc4964f8b46d273db82b1b
+  - enabled: 1
+    path: Assets/Defence/Chpter-03/Sceens/scene4.unity
+    guid: 2aa7ca6f8f92c87459ecb1ea954d8228
+  - enabled: 1
+    path: Assets/Defence/Chpter-03/Sceens/scene5.unity
+    guid: 88804425c7c48f143b91b8596d85fa12
+  - enabled: 1
+    path: Assets/Defence/Chapter-02/ZakyDefence.unity
+    guid: dd872bd67804410428f80f27195dd7c1
+  - enabled: 1
+    path: Assets/Attack/Chapter-02/Scenes/HamodaAttack.unity
+    guid: 1ab7618ab6196594e83d68c64f6f5090
+  - enabled: 1
+    path: Assets/Defence/Chpter-03/Sceens/scene6.unity
+    guid: 6d96e504e6bc7494887071d86a837a18
+  - enabled: 1
+    path: Assets/Defence/Chpter-03/Sceens/scene7.unity
+    guid: 27925304bcdd56545a88a5512e8f0e06
+  - enabled: 1
+    path: Assets/Attack/Chapter-03/HilalAttackMenue.unity
+    guid: bb22cc839db1c3f489bd6fc25c2b8273
+  - enabled: 1
+    path: Assets/Defence/Chpter-03/Sceens/scene8.unity
+    guid: 050900ed384d1414ca9d579734fce473
+  - enabled: 1
+    path: Assets/Defence/Chpter-03/Sceens/scene9.unity
+    guid: fa08bf86c06236643add6f9141bdfafe
+  - enabled: 1
+    path: Assets/Defence/Chpter-03/Sceens/Try Again.unity
+    guid: 8ed95a85b604042478369395c3fb6568
+  - enabled: 1
+    path: Assets/Defence/Chpter-03/Sceens/Try Again2.unity
+    guid: 9eeb3bb52a6d63c4f97b153b2a50003d
+  - enabled: 1
+    path: Assets/Attack/AttackChapterTwo.unity
+    guid: 8cd50e20cb3c2cc4ea8f45643c3faeb9
+  - enabled: 1
+    path: Assets/Attack/AttackChapterThree.unity
+    guid: f4e41945da409264aad097bc01df4798
+  m_configObjects: {}
