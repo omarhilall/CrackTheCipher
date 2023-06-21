@@ -84,7 +84,7 @@ public class UIManager : MonoBehaviour
             {
                 electricBG.SetActive(true);
 
-                StartCoroutine(RestartingElectrcity());
+                StartCoroutine(RestartingServers());
             }
 
             if (gameState == GameState.ChangeClothes)
@@ -130,7 +130,7 @@ public class UIManager : MonoBehaviour
 
     }
 
-    private IEnumerator RestartingElectrcity()
+    private IEnumerator RestartingServers()
     {
         yield return new WaitForSeconds(0.2f);
         doneMsgBG.SetActive(false);
